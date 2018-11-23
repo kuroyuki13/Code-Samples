@@ -1,0 +1,3 @@
+These files form a job manager that I once created for a multithreading class at school, but later changed it to be more abstract so it could be used in my own projects.
+
+It makes use of void pointers to pass functions and its parameters to threads, without needing to know what the function is about. The passed function itself would know how to interpret the parameters passed.
