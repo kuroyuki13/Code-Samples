@@ -1,5 +1,4 @@
 # Code-Samples
 Repository of code samples of projects I worked on
 
-Files that belong together are in their own folder, such as jobmanager.h and jobmanager.cpp.
-Single files are added without a folder.
+Files that are organized in their owen folders, with readme files stating from what kind of project they came and what their purpose was.
