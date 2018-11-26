@@ -1,0 +1,5 @@
+This folder contains blueprints used in a project for AI to launch a projectile at the player. The projectile would always be launched at the same velocity. The challenge was to calculate at what angle the projectile should be launched to land on the target.
+
+The blueprint also implements minor prediction for the targets movement to make hitting more precise. It is not perfect, but this is done intentionally to avoid the AI being too acurate.
+
+The Cpp file implements the calculations for the angle in C++ with a placeholder for vector3.
