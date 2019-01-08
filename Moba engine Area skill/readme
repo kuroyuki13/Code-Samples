@@ -1,0 +1,1 @@
+this code sample was part of a small moba engine created over 8 weeks using the networking solution entitas. This code sample shows the fixed update system on the server side that handles the update of a skill with that deals damage in an area.
