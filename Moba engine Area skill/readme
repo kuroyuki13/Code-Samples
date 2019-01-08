@@ -1,1 +1,11 @@
-this code sample was part of a small moba engine created over 8 weeks using the networking solution entitas. This code sample shows the fixed update system on the server side that handles the update of a skill with that deals damage in an area.
+These code samples were part of a small moba engine created over 8 weeks using the networking solution entitas. Entitas is an Entity Component system that allows to react on updated entities.
+
+At times these files will have comments saying to change when something is implemented, or that it is test code. This is because we overscoped the project and didn't get everything we wanted implemented.
+
+These code samples show a large part of the system that i created to handle casting skills. 
+1. the player casts a skill. these skills are numbered 1 through 4 (usually mapped to keyboard buttons in a game). (client side fire skill file)
+2. the skill cast system will react to the updated component and get the information from the champion casting the skill, then create the appropriate network entity (Skill cast system file)
+3. the fixed update for the corresponding skill will then handle its behaviour (Update area skill file).
+4. if it damages something, the takedamage component is added, its reaction handles damage (Take damage component)
+
+Looking through the files you can see a lot of components being used that arent included here. That is because with Entitas, nearly every variable is its own component and has to be added.
