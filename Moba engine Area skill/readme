@@ -1,4 +1,4 @@
-These code samples were part of a small moba engine created over 8 weeks using the networking solution entitas. Entitas is an Entity Component system that allows to react on updated entities.
+These code samples were part of a small moba engine created over 8 weeks using the networking solution entitas, during 2nd year at Buas. Entitas is an Entity Component system that allows to react on updated entities.
 
 At times these files will have comments saying to change when something is implemented, or that it is test code. This is because we overscoped the project and didn't get everything we wanted implemented.
 
